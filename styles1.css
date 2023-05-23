@@ -1,0 +1,79 @@
+body{
+    background-image: url("road4.jpg");
+    background-size: cover;
+}
+
+.div-items{
+    /* display:flex; */
+    flex:0 0 100%;
+    background-color: grey;
+    list-style: none;
+    margin:0px;
+    flex-direction: row;
+    height:130px;
+    padding-left: 10px;
+    /* width:1600px; */
+    /* align-items: center;
+    justify-content: center; */
+}
+
+
+
+.items a{
+    float:right;
+    padding:60px 10px 0px 10px;
+    /* align-self: flex-end; */
+}
+
+.item1{
+    padding-left: 100px;
+}
+
+.items a{
+    color:#fff700;
+    font-size: 25px;
+    font-family: 'Great Vibes';
+    text-decoration: none;
+}
+
+.logo{
+    /* list-style: none; */
+    padding:5px 10px 0px 10px;
+    float:left;
+    border-radius: 50%;
+}
+
+.logo-name{
+    /* list-style: none; */
+    padding:40px 10px 10px 10px;
+    float:left; 
+    color:yellow;
+    font-size: 25px;
+    font-family: 'Great Vibes';
+    font-weight: bolder;
+    /* padding-top:15px; */
+}
+
+.logo-name h1{
+    margin:0px;
+}
+
+@media screen and (min-width:0px) and (max-width:560px){
+    .items a{
+        padding-bottom:20px;
+        padding-top:0px;
+    }
+    .logo-name{
+        padding-top:10px;
+    }
+    
+}
+
+@media screen and (min-width:564px) and (max-width:675px){
+    .items a{
+        padding-bottom:20px;
+        padding-top:20px;
+    }
+    
+}
+

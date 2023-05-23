@@ -1,0 +1,227 @@
+/*rows & columns*/
+/* .row{
+    width:100%;
+    display:flex;
+    margin: auto;
+    flex-wrap:wrap;
+    align-items:center;
+}
+.col-1{width:8.33%}
+.col-2{width:16.66%}
+.col-3{width:25%}
+.col-4{width:33.33%}
+.col-5{width:41.66%}
+.col-6{width:50%}
+.col-7{width:58.33%}
+.col-8{width:66.66%}
+.col-9{width:75%}
+.col-10{width:83.33%}
+.col-11{width:91.66%}
+.col-12{width:100%} */
+
+
+/* navigation bar */
+/* div{
+    background-color: grey;
+    overflow:hidden;
+} */
+
+/* .div-items{
+    margin:auto;
+    padding:5px;
+}
+
+.div-items .items{
+    list-style: none;
+    padding:10px;
+    float:right; 
+    color:blue;
+    font-size: larger;
+    padding-top:50px;
+} */
+
+body{
+    background-image: url("road4.jpg");
+    background-size: cover;
+}
+.div-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url("roadh.jpg"); */
+    background-size: cover;
+}
+
+.div1{
+    height:120px;
+}
+
+.div-items {
+    list-style: none;
+    /* padding:20px; */
+    /* float:left;  */
+    /* color:#50C878; */
+    /* font-size: 22px; */
+    /* font-family: 'Great Vibes'; */
+    /* padding-top:15px; */
+}
+.logo{
+    /* list-style: none; */
+    padding:0px 15px 25px 0px;
+    float:left;
+    border-radius: 50%;
+}
+
+.logo-name{
+    /* list-style: none; */
+    padding:10px 10px 0px 10px;
+    float:left; 
+    color:yellow;
+    font-size: 25px;
+    font-family: 'Great Vibes';
+    font-weight: bolder;
+    padding-top:15px;
+}
+
+/* .div-items .items a{
+    text-decoration:none;
+    color:blue;
+   
+} */
+
+/* .div-items li:hover{
+    background-color:skyblue;
+    display:block;
+    
+} */
+
+ul{
+    margin:0px;
+}
+
+
+.second{
+    display:flex;
+    height:40px; 
+    justify-content: right; 
+}
+
+.items{
+    float:right;
+    padding:10px;
+    padding-top:100px;
+}
+
+.items a{
+    color:#fff700;
+    font-size: 25px;
+    font-family: 'Great Vibes';
+    text-decoration: none;
+   
+}
+
+/* signin page */
+
+.signin-body{
+    margin-top: 20px;
+}
+
+.signin-div{
+    background-color: #fcffa4;
+    margin:10px;
+    padding:0px 10px;
+    height:97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signin-child{
+    background-color: #fcffa4;
+    display: inline;
+    padding: 0px 20px;   
+}
+
+.signin-heading{
+    color:#808080;
+    text-align:center;
+    margin:20px;
+}
+.signin-label{
+    color:#808080;
+    font-weight:bold;
+}
+
+.newacclink{
+    color:navy;
+}
+
+.signin-text ,.signin-button{
+    width:400px;
+    height:40px;
+    padding:5px;
+    display:block;
+    
+}
+
+.signin-text{
+    margin-top:15px;
+}
+
+.signin-button{
+    background-color: #808080;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    margin-top:15px;
+}
+.signin-link{
+    margin-left:130px;
+}
+
+/* signup page */
+.signup-div{
+    background-color:#fcffa4;
+    margin:10px;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+}
+
+.signup-child{
+    background-color:#fcffa4;
+    display: inline;
+    padding: 0px 20px;   
+}
+
+.signup-heading{
+    color:#808080;
+    text-align:center;
+    margin:20px;
+}
+.signup-label{
+    color:#808080;
+    font-weight:bold;
+}
+.signup-text ,.signup-button{
+    width:400px;
+    height:40px;
+    padding:5px;
+    display:block;
+    
+}
+
+.signup-text{
+    margin-top:15px;
+}
+
+.signup-button{
+    background-color:#808080;
+    border: none;
+    color: white;
+    border-radius: 8px;
+}
+
+.required{
+    color:red;
+}

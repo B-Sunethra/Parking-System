@@ -1,0 +1,53 @@
+body{
+    background-image: url("road4.jpg");
+    background-size: cover;
+}
+
+.reset-div{
+    background-color: #fcffa4;
+    margin:10px;
+    padding:10px;
+    height:95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reset-child{
+    display: inline;
+    background-color: #fcffa4;
+    padding:20px;   
+}
+
+.reset-heading{
+    color:#808080;
+    text-align:center;
+}
+.reset-label{
+    color: #808080;
+    font-weight:bold;
+}
+
+.reset-text ,.reset-button{
+    width:400px;
+    height:40px;
+    padding:5px;
+    display:block;
+    
+}
+
+.reset-text{
+    margin-top:15px;
+}
+
+.reset-button{
+    border: none;
+    background-color: #808080;
+    border-radius: 8px;
+    margin-top:15px;
+    color:white;
+}
+
+.required{
+    color:red;
+}

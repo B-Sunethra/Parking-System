@@ -1,0 +1,13 @@
+.parent-div{
+    display:grid;
+    grid-template-columns:repeat(2,500px);
+    grid-template-rows:minmax(500px,auto);
+    grid-column-gap:20px;
+    justify-content: center;
+}
+.cars-div{
+    background-color: aqua;
+}
+.bikes-div{
+    background-color: azure;
+}
